@@ -7,3 +7,4 @@ In addition, we use a novel method using python's Altair to show the plant speci
 
 ![animated](STELLA_with_Photos.gif)
 
+We have also created a Notebook (convert_ver4_clean.ipynb) to read in the raw STELLA data and create a series of Excel files that are easy to read and contain raw data, white card corrected data as well as time-series and wavelength plots. We also have one Excel file that has the NDVI time-series data and plot.  
