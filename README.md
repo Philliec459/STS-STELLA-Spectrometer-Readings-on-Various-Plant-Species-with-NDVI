@@ -1,6 +1,6 @@
 # STS-STELLA-Spectrometer-Readings-on-Plant-Species
 ---
-The Science and Technology Society (STS) of Sarasota-Manatee Counties, FL have created a Jupyter Notebook to load raw STELLA-Q2 spectrometer data, white-card correct the wavelength data and then use **Decision Tree** and **Knn** to differentiate plant species based on the **mean End-Members** reference data where the **Normalized Difference Vegetative Index (NDVI)** is key to this analysis. NDVI is calculated:
+The **Science and Technology Society (STS)** of Sarasota-Manatee Counties, FL have created a Jupyter Notebook to load raw **NASA STELLA-Q2** spectrometer data, white-card correct the wavelength data and then use **Decision Tree** and **Knn** to differentiate plant species based on the **mean End-Members** reference data where the **Normalized Difference Vegetative Index (NDVI)** is key to this analysis. NDVI is calculated:
 
     _NDVI = (Near IR irradiance – Red irradiance)/( Near IR irradiance + Red irradiance)_
 
