@@ -1,7 +1,28 @@
 # STS-STELLA-Spectrometer-Readings-on-Plant-Species
-The Science and Technology Society (STS) of Sarasota-Manatee Counties, FL have created a Jupyter Notebook to load raw STELLA-Q2 spectrometer data, white card correct the wavelength data and then use Decision Tree and Knn to differentiate plant species based on the mean end member reference data where the Normalized Difference Vegetative Index (NDVI) is key to this analysis. NDVI is calculated:
+The Science and Technology Society (STS) of Sarasota-Manatee Counties, FL have created a Jupyter Notebook to load raw STELLA-Q2 spectrometer data, white-card correct the wavelength data and then use Decision Tree and Knn to differentiate plant species based on the mean end member reference data where the Normalized Difference Vegetative Index (NDVI) is key to this analysis. NDVI is calculated:
 
     NDVI = (Near IR irradiance – Red irradiance)/( Near IR irradiance + Red irradiance)
+
+These are all of the vegetative species wavelength plots after the white-card corrections:
+>
+>![animated](wavelengths.png)
+>
+
+The Decision Tree method allows us to better understand the logic use in differentiating one species from the other:
+>
+>![animated](DecisionTree.png)
+>
+
+These are the various mean End Member for each species used with Knn:
+>
+>![animated](EndMember.png)
+>
+
+and these are the natural clusters for each species in red, near IR and NDVI space:
+>
+>![animated](3D.png)
+>
+
 
 The STELLA-Q2 is a NASA configured hand-held spectrometer designed by Paul Mirel at NASA. The unit is relatively inexpensive and is used to collect end member data that can then be used to calibrate Landsat interpretations. Mike Taylor of NASA heads up the STELLA team, and he and his entire team have been so immensely helpful as we delve into calibrated Landsat interpretations. 
 
