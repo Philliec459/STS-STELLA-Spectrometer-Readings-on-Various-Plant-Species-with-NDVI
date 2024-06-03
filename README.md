@@ -14,25 +14,25 @@ In our notebooks we employ a few novel python methods using Altair and Panel to 
 >
 
 
-These are all of the vegetative species wavelength plots after the white-card corrections:
+**These are all of the vegetative species wavelength plots after the white-card corrections:**
 
 >
 >![animated](wavelengths.png)
 >
 
-The Decision Tree method allows us to better understand the logic use in differentiating one species from the other:
+**The Decision Tree method allows us to better understand the logic use in differentiating one species from the other:**
 
 >
 >![animated](DecisionTree.png)
 >
 
-These are the various mean End Member for each species used with Knn:
+**These are the various mean End Member for each species used with Knn:**
 
 >
 >![animated](EndMember.png)
 >
 
-and these are the natural clusters for each species in red, near IR and NDVI space:
+**and these are the natural clusters for each species in red, near IR and NDVI space:**
 
 >
 >![animated](3D.png)
