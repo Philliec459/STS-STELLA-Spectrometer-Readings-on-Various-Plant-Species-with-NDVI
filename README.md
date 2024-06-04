@@ -41,4 +41,11 @@ In our notebooks we employ a few novel python methods using Altair and Panel to 
 
 
 
-We have also created a Jupyter Notebook (convert_ver4_clean.ipynb) to read in the raw STELLA data (data.csv) and create a series of Excel files that are easy to read and contain the raw data, white card corrected data as well as time-series and wavelength plots. We also create an Excel file that has the calculated NDVI time-series data and plots too.
+We have also created a Jupyter Notebook (**convert_clean4_clean.ipynb**) to read in the raw STELLA data (data.csv type data) that has been converted to an xlsx file and the White-Card xlsx file, and then create a series of Excel files that are easy to read and contain the raw data, white-card, white-card corrected data as well as time-series and wavelength plots. We also create an Excel file that has the calculated NDVI time-series data and plots too.
+
+If you do not use jupyter notebooks, then just run the same program as a python script:
+
+    python convert_clean4_clean.py
+
+This will result in 5 Excel files that are trimmed for easy access in Excel, and we have provided some plots too. The **5_wavelength_plots_White_Card_Corrected_NDVI.xlsx** has the white-card corrected data and a calculated NDVI for each reading. 
+
