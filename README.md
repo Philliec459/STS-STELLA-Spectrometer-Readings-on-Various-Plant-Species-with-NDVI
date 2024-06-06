@@ -16,7 +16,6 @@ In our notebooks we employ a few novel python methods using Altair and Panel to 
 >
 >
 
-
 ## **These are all of the vegetative species wavelength plots after the white-card corrections:**
 
 >
@@ -40,8 +39,6 @@ In our notebooks we employ a few novel python methods using Altair and Panel to 
 >
 >![animated](3D.png)
 >
-
-
 
 We have also created a Jupyter Notebook (**convert_clean4_clean.ipynb**) to read in the raw STELLA data (data.csv type data) that has been converted to an xlsx file and the White-Card xlsx file, and then create a series of Excel files that are easy to read and contain the raw data, white-card, white-card corrected data as well as time-series and wavelength plots. We also create an Excel file that has the calculated NDVI time-series data and plots too.
 
